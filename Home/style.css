@@ -1,0 +1,252 @@
+body {
+    background-color: #313636;
+    margin: 0;
+    padding: 0;
+    /* Optional: Ensure text is readable on this dark background */
+    color: #ffffff; 
+}
+.bar{
+    color: rgb(230, 162, 196);
+    background-color: rgb(95, 95, 95);
+    padding: 10px;
+}
+
+.bar{
+    display: inline-block;
+    width: 1240px;
+}
+
+.shayz{
+    display: inline;
+    padding-left:40px ;
+}
+
+ul{
+    display: inline;
+    padding-left: 650px;
+}
+
+li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+li{
+    cursor: pointer;
+}
+
+li:hover{
+    color: rgba(233, 11, 177, 0.733);
+}
+
+
+.btn:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+button{
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btn {
+    /* Remove default browser styling */
+    background-color: #ff4757; /* A bright "Buy" color */
+    color: white;
+    border: none;
+    padding: 10px;
+    
+    /* Shape and Font */
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Makes the white hand icon appear */
+    
+    /* Smooth transition for hover effects */
+    transition: all 0.3s ease;
+}
+
+.welcome{
+    padding: 50px;
+}
+
+.logo{
+    width: 300px;
+}
+
+.p-lines{
+    margin-top: 50px;
+}
+.about{
+    padding: 75px;
+}
+
+
+
+.box{
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    display: inline-block;
+    width: 280px;
+    height: 350px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+.box:hover{
+    transform: translateY(-5px);
+    color: #000000;
+    background-color: rgb(185, 180, 180);
+}
+
+.delivery{
+    border-color: black ;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.shalwar{
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    display: inline-block;
+    width: 280px;
+    height: 350px;
+    margin-top: 50px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.shalwar:hover{
+    transform: translateY(-5px);
+    color: #000000;
+    background-color: rgb(134, 221, 134);
+}
+
+.dress{
+    border-color: black ;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.perfume{
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    display: inline-block;
+    width: 290px;
+    height: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.perfume:hover{
+    transform: translateY(-5px);
+    color: black;
+    background-color: rgb(62, 171, 235);
+}
+
+.sauvage{
+    border-color: black ;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.accessories{
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    display: inline-block;
+    width: 280px;
+    height: 350px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.accessories:hover{
+    transform: translateY(-5px);
+    color: black;
+    background-color: lightcoral;
+}
+
+.accessory{
+    border-color: black ;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.electronics{
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+}
+.electronics:hover{
+    transform: translateY(-5px);
+    color: #000000;
+    background-color: azure;
+}
+
+.electronic{
+    border-color: black ;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+
+
+.social-container {
+    display: flex;
+    justify-content: center; /* This centers the icons */
+    gap: 20px;               /* Spacing between icons */
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;             /* Size of the circle */
+    height: 50px;
+    background-color: #ff4d5a; /* Your brand color */
+    color: white;
+    border-radius: 50%;      /* Makes it a perfect circle */
+    font-size: 24px;         /* Icon size */
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect to make it interactive */
+.social-icon:hover {
+    transform: translateY(-5px); /* Lift up effect */
+    background-color: #000000;   /* Slightly darker red */
+}
