@@ -16,6 +16,30 @@ body {
     display: inline;
  
 }
+
+.search{
+    padding-right: 250px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.cart-button {
+    display: inline-block;
+    background-color: #000000; 
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    }
+
+.cart-button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
 ul{
     display: inline;
     padding-left: 650px;
@@ -100,4 +124,98 @@ button{
 /* Pause animation on hover so users can look closer */
 .slider-viewport:hover .slider-train {
   animation-play-state: paused;
+}
+
+.dress1{
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+    height: 330px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.dress1:hover{
+    background-color: #464646;
+    transform: scale(1.01);
+    background-color: #575757;
+}
+.pic{
+    width: 200px;
+}
+
+.perfumes{
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+    height: 330px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.perfumes:hover{
+    background-color: #464646;
+    transform: scale(1.01);
+    background-color: #575757;
+}
+
+.accessory-box{
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.accessory-box:hover{
+    background-color: #464646;
+    transform: scale(1.01);
+    background-color: #575757;
+}
+
+.E-box{
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.E-box:hover{
+    background-color: #464646;
+    transform: scale(1.01);
+    background-color: #575757;
+}
+
+.house-hold-box{
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+    height: 210px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.house-hold-box:hover{
+    background-color: #464646;
+    transform: scale(1.01);
+    background-color: #575757;
 }
