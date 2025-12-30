@@ -100,3 +100,78 @@ button{
 .arrow{
     display: inline-block;
 }
+
+.cart-summery{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: -142px;
+    background-color: #949494;
+    width: 400px;
+    height: 230px;
+    padding: 5px;
+    margin-left: 850px;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+.select-all{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: -70px;
+    background-color: #949494;
+    width: 800px;
+    padding: 5px;
+}
+
+.delet-all{
+    margin-left: 660px;
+}
+
+.cart-items{
+    display: inline-block;
+    margin-left: 15px;
+    background-color: #949494;
+    width: 800px;
+    padding: 5px;
+}
+
+.delete{
+    margin-left: 685px;
+}
+
+
+
+.summary-details {
+    display: flex;
+    flex-direction: column; /* This stacks items vertically */
+    align-items: flex-start; /* This aligns them to the left */
+    gap: 10px;               /* This adds space between the lines */
+    margin-top: 15px;        /* Spacing below the main heading */
+}
+
+.summary-details span {
+    font-size: 14px;
+    color: #ffffff;          /* Adjust based on your dark theme */
+}
+
+.checkout-button {
+    background-color: #ff4757; /* The specific Daraz orange */
+    color: white;              /* White text */
+    padding: 12px 24px;       /* Makes the button tall and wide */
+    border: none;              /* Removes the default border */
+    border-radius: 8px;        /* Slightly rounded corners */
+    font-size: 16px;           /* Large, readable text */
+    font-weight: bold;         /* Bold text */
+    text-transform: uppercase; /* Makes it all caps like Daraz */
+    width: 100%;               /* Makes it span the full width of the box */
+    cursor: pointer;           /* Shows the hand icon on hover */
+    margin-top: 180px;  
+    transition: background 0.3s; /* Smooth color change on hover */
+}
+
+.checkout-button:hover {
+    background-color: #000000; /* Slightly darker orange when hovering */
+}
+
