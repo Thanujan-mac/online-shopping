@@ -175,3 +175,27 @@ button{
     background-color: #000000; /* Slightly darker orange when hovering */
 }
 
+.cart-items-2{
+    display: inline-block;
+    margin-left: 15px;
+    background-color: #949494;
+    width: 800px;
+    padding: 5px;
+    margin-top: -90px;
+}
+
+.cart-items-3{
+    display: inline-block;
+    margin-left: 15px;
+    background-color: #949494;
+    width: 800px;
+    padding: 5px;
+}
+
+.cart-items-4{
+    display: inline-block;
+    margin-left: 15px;
+    background-color: #949494;
+    width: 800px;
+    padding: 5px;
+}
